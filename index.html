@@ -1,0 +1,56 @@
+<html>
+<head>
+        <title>Calculadora Básica</title>
+
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+        
+</head>
+
+<body>
+    <div class="rectangulo">
+        <h1> Calculadora Básica </h1>
+        <hr>
+
+        <div class="container">
+            <input id="num1" type="text" placeholder="0" readonly />
+        </div>
+        <hr>
+
+        <div class="botones">
+            <button id="bt1" onclick="Escribir('1')">1</button>
+            <button id="bt2" onclick="Escribir('2')">2</button>
+            <button id="bt3" onclick="Escribir('3')">3</button>
+            <button id="plus" onclick="Sumar('+')">+</button>
+
+            <button id="bt4" onclick="Escribir('4')">4</button>
+            <button id="bt5" onclick="Escribir('5')">5</button>
+            <button id="bt6" onclick="Escribir('6')">6</button>
+            <button id="minus" onclick="Resta('-')">-</button>
+
+            <button id="bt7" onclick="Escribir('7')">7</button>
+            <button id="bt8" onclick="Escribir('8')">8</button>
+            <button id="bt9" onclick="Escribir('9')">9</button>
+            <button id="multiplied" onclick="Multiplicar('*')">*</button>
+
+            <button id="bt0" onclick="Escribir('0')">0</button>
+            <button id="back" onclick="Atras('<')"><</button>
+            <button id="clean" onclick="limpiar(' ')">C</button>
+            <button id="divided" onclick="Dividir('/')">/</button>
+
+            <button id="point" onclick="Escribir('.')">.</button>
+            <button id="equal" onclick="Resultado('<')">=</button>
+            <button id="porcent" onclick="Percentage('%')">%</button>
+            <button id="off" onclick="Apagar('')">Off</button>
+        </div>
+
+        <hr>
+
+
+        <footer>
+            <br>Andrés Meléndez & Co.<br />
+        </footer>
+    </div>
+</body>
+
+</html>
